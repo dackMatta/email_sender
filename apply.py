@@ -8,7 +8,13 @@ import password
 # Define your email details here
 SENDER_EMAIL = 'makambientryx@gmail.com'
 PASSWORD = 'oxhp lugl ljrd qjcl'
-RECIPIENTS = ['mactheegreat@gmail.com','questionmac07@gmail.com'
+RECIPIENTS = ['mactheegreat@gmail.com',
+              'vacancies@flysafarilink.com',' jobs@astral-aviation.com',
+              'careers@alternativeairlines.com','careers@airkenya.com',
+              'careers@skywardexpress.co.ke','admin@eaaircharters.co.ke',
+              'careers@phoenixaviation.co.ke','hr@jambojet.com',
+              'info@jetwaysairlines.com','info@flydoc.org',
+              'info@freedomairexpress.com','operations@renegade.co.ke',
               ]  # Add more recipients as needed
 SUBJECT = 'Application for internship program'
 MESSAGE = """Hope this email finds you well, 
