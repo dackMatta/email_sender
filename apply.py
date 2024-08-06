@@ -3,18 +3,22 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import password
+from password import sixteen_letters
 
 # Define your email details here
 SENDER_EMAIL = 'makambientryx@gmail.com'
-PASSWORD = 'oxhp lugl ljrd qjcl'
+PASSWORD = sixteen_letters
 RECIPIENTS = ['mactheegreat@gmail.com',
               'vacancies@flysafarilink.com',' jobs@astral-aviation.com',
               'careers@alternativeairlines.com','careers@airkenya.com',
               'careers@skywardexpress.co.ke','admin@eaaircharters.co.ke',
               'careers@phoenixaviation.co.ke','hr@jambojet.com',
               'info@jetwaysairlines.com','info@flydoc.org',
-              'info@freedomairexpress.com','operations@renegade.co.ke',
+              'info@dragonflyafrica.co.ke','careers@flysafarilink.com',
+              'alex@flysafarilink.com',
+              'hr@astral-aviation.com'
+             # 'hr@freedomairexpress.com'
+              
               ]  # Add more recipients as needed
 SUBJECT = 'Application for internship program'
 MESSAGE = """Hope this email finds you well, 
@@ -32,6 +36,9 @@ ATTACHMENTS = [
     {'filename': 'KCSE KNEC Cert.pdf', 'path': r'.\credentials\KCSE KNEC Cert.pdf'},
     {'filename': 'Recommendation letter.pdf', 'path': r'.\credentials\Recommendation letter.pdf'},
     {'filename': 'knec transcript.pdf', 'path': r'.\credentials\knec transcript.pdf'},
+    {'filename': 'National id.pdf', 'path': r'.\credentials\National id.pdf'},
+    {'filename': 'Fire-Training-Fire-Certificate.pdf', 'path': r'.\credentials\Fire-Training-Fire-Certificate.pdf'},
+    {'filename': 'Protective-Equipment-Certificate.pdf', 'path': r'.\credentials\Protective-Equipment-Certificate.pdf'}
 ]  # Add more attachments as needed
 
 def configure(smtp_obj, sender_email, password):
