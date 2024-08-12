@@ -9,14 +9,23 @@ from password import sixteen_letters
 SENDER_EMAIL = 'makambientryx@gmail.com'
 PASSWORD = sixteen_letters
 RECIPIENTS = ['mactheegreat@gmail.com',
-              'vacancies@flysafarilink.com',' jobs@astral-aviation.com',
-              'careers@alternativeairlines.com','careers@airkenya.com',
-              'careers@skywardexpress.co.ke','admin@eaaircharters.co.ke',
-              'careers@phoenixaviation.co.ke','hr@jambojet.com',
-              'info@jetwaysairlines.com','info@flydoc.org',
-              'info@dragonflyafrica.co.ke','careers@flysafarilink.com',
+              'vacancies@flysafarilink.com',
+              'jobs@astral-aviation.com',
+              'careers@alternativeairlines.com',
+              'careers@airkenya.com','hr@airkenya.com',
+              'careers@skywardexpress.co.ke','hr@skywardexpress.co.ke',
+              'admin@eaaircharters.co.ke',
+              'careers@phoenixaviation.co.ke','hr@phoenixaviation.co.ke',
+              'hr@jambojet.com',
+              'info@jetwaysairlines.com','hr@jetwaysairlines.com',
+              'info@flydoc.org',
+              'hr@dragonflyafrica.co.ke',
+              'careers@flysafarilink.com',
               'alex@flysafarilink.com',
-              'hr@astral-aviation.com'
+              'hr@astral-aviation.com',
+              'hr@kcaa.or.ke'
+
+              
              # 'hr@freedomairexpress.com'
               
               ]  # Add more recipients as needed
