@@ -12,42 +12,57 @@ RECIPIENTS = ['mactheegreat@gmail.com',
               'vacancies@flysafarilink.com',
               'jobs@astral-aviation.com',
               'careers@alternativeairlines.com',
-              'careers@airkenya.com','hr@airkenya.com',
-              'careers@skywardexpress.co.ke','hr@skywardexpress.co.ke',
-              'admin@eaaircharters.co.ke',
-              'careers@phoenixaviation.co.ke','hr@phoenixaviation.co.ke',
-              'hr@jambojet.com',
-              'info@jetwaysairlines.com','hr@jetwaysairlines.com',
+              'careers@airkenya.com',
+              'hr@airkenya.com',
+              'careers@skywardexpress.co.ke',
+              'hr@skywardexpress.co.ke',
+              'careers@phoenixaviation.co.ke',
+              'hr@phoenixaviation.co.ke',
+              'Hr@jambojet.com',
+              'info@jetwaysairlines.com',
+              'hr@jetwaysairlines.com',
               'info@flydoc.org',
+              'hr@safeaircompany.com',
               'hr@dragonflyafrica.co.ke',
               'careers@flysafarilink.com',
               'alex@flysafarilink.com',
               'hr@astral-aviation.com',
-              'hr@kcaa.or.ke'
-
+              'hr@directmaintenance.aero',
+              'hr@freedomairexpress.com',
+            
               
-             # 'hr@freedomairexpress.com'
+              # 'recruitment@kenya-airways.com',
+              #'Isaac.Kivula@kenya-airways.com',
+              #'Eric.Otieno@kenya-airways.com',
               
               ]  # Add more recipients as needed
-SUBJECT = 'Application for internship program'
-MESSAGE = """Hope this email finds you well, 
+SUBJECT = 'Application for Aviation Maintenance Internship Program'
+MESSAGE = """Dear Sir/Madam,
 
-I am writing to express my interest in joining your engineering maintenance department as an intern.
-Below are my credentials with hope that you will be considerate of my request upon upcoming openings at your organization.
+I hope this message finds you well.
+
+I am writing to express my strong interest in joining your esteemed organization as an intern in the Engineering Maintenance Department. I have attached my credentials for your review and kindly request your consideration of my application.
+
+Thank you for your time and attention. I look forward to the opportunity to contribute to your team.
+
+Best regards,
+Entrix Makambi
 """
 
 # Define attachments
 ATTACHMENTS = [
-    {'filename': 'Makambi_Entrix_resume.docx', 'path': r'.\credentials\Makambi_Entrix_resume.docx'},
-    {'filename': 'Cover letter.docx', 'path': r'.\credentials\Cover letter.docx'},
+    {'filename': 'Cover letter.pdf', 'path': r'.\credentials\Cover letter.pdf'},
+    {'filename': 'ENTRIX MAKAMBI Resume.pdf', 'path': r'.\credentials\ENTRIX MAKAMBI Resume.pdf'},
     {'filename': 'EASA clearance_letter.pdf', 'path': r'.\credentials\EASA clearance_letter.pdf'},
     {'filename': 'Good conduct certificate.pdf', 'path': r'.\credentials\Good conduct certificate.pdf'},
+    {'filename': 'DCI RECEIPT.pdf', 'path': r'.\credentials\DCI RECEIPT.pdf'},
+    {'filename': 'Accident Insuarance.pdf', 'path': r'.\credentials\ENTRIX MAKAMBI Insuarance.pdf'},
     {'filename': 'KCSE KNEC Cert.pdf', 'path': r'.\credentials\KCSE KNEC Cert.pdf'},
     {'filename': 'Recommendation letter.pdf', 'path': r'.\credentials\Recommendation letter.pdf'},
     {'filename': 'knec transcript.pdf', 'path': r'.\credentials\knec transcript.pdf'},
     {'filename': 'National id.pdf', 'path': r'.\credentials\National id.pdf'},
-    {'filename': 'Fire-Training-Fire-Certificate.pdf', 'path': r'.\credentials\Fire-Training-Fire-Certificate.pdf'},
-    {'filename': 'Protective-Equipment-Certificate.pdf', 'path': r'.\credentials\Protective-Equipment-Certificate.pdf'}
+   # {'filename': 'Fire-Training-Fire-Certificate.pdf', 'path': r'.\credentials\Fire-Training-Fire-Certificate.pdf'},
+    #{'filename': 'Protective-Equipment-Certificate.pdf', 'path': r'.\credentials\Protective-Equipment-Certificate.pdf'}
 ]  # Add more attachments as needed
 
 def configure(smtp_obj, sender_email, password):
